@@ -1,0 +1,1 @@
+SELECT CITY FROM STATION WHERE LOWER(SUBSTR(CITY,LENGTH(CITY),LENGTH(CITY))) IN ('a', 'e', 'i', 'o','u') AND LOWER(SUBSTR(CITY,1,1)) IN ('a', 'e', 'i', 'o','u');
